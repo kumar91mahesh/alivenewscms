@@ -1,0 +1,98 @@
+/*imported external css*/
+@import url('typography.css');
+@import url('layout.css');
+@import url('tabby.css');
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Display*/
+
+.inline{display:inline}
+.block{display:block}
+.inline-block{display:inline-block}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Float Alignment*/
+.left{float:left}
+.right{float:right}
+.center{margin:0 auto; display:block; min-width:100px}
+.clear{clear:both}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Text Alignment*/
+.text-left{text-align:left}
+.text-center{text-align:center}
+.text-right{text-align:right}
+.text-justify{text-align:justify}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Tag Styling*/
+a{text-decoration:none}
+h1{font:normal 36px/36px 'ralewaylight';}
+h2{font:normal 30px/30px 'ralewaylight';}
+h3{font:normal 24px/24px 'ralewaylight';}
+h4{font:normal 18px/18px 'ralewaylight';}
+h5{font:normal 12px/12px 'ralewaylight';}
+h6{font:normal 10px/10px 'ralewaylight';}
+p{font:normal 16px 'proxima_nova_rgregular';}
+p strong{font-weight:'bold';}
+p a{color:#666}
+a{}
+small{}
+strong{}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*button styling*/
+
+.pbtn{border-radius:3px; border:none; min-width:70px; padding:0 20px; text-align:center; display:inline-block; color:#fff; font:normal 14px/34px 'ralewaybold'; text-decoration:none; transition: background-color 0.3s ease; cursor:pointer}
+.pbtn.primary{background:#000; border:2px solid #000}
+.pbtn.secondary{background:#fdaa29;}
+.pbtn.primary:hover{background:#fff; color:#d24a43; border:2px solid #d24a43}
+.pbtn.secondary:hover{background:#eb7a00;}
+.back{background-image:url(../images/ic_back_btn.png); background-repeat:no-repeat; background-position: 10px center; padding-left:30px; font:normal 14px/34px 'ralewaybold'; text-decoration:none; color:#444}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Input styling starts here*/
+
+
+textarea {padding:10px; border:1px solid #acacac; background:#fff; border-radius:8px; font:normal 15px 'proxima_nova_rgregular'; color:#666; resize:none}
+input[type="text"] {border:1px solid #acacac; background:#fff; border-radius:4px; padding:8px 10px 9px; margin-right:15px; font:normal 12px 'proxima_nova_rgregular'}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Sticky Footer starts here*/
+
+* {	
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 40px; 
+}
+.site-footer {
+  background: #222;
+}
+
+
+
+ul.inline li{display:block; float:left;}

@@ -1,0 +1,533 @@
+.content-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	background: #d24a43;
+	padding: 13px 0;
+}
+.notifications {
+	position: relative;
+}
+.notifications a {
+	font: normal 12px/38px 'ralewayregular';
+	color: #fff;
+	display: inline-block;
+	margin-right: 30px;
+	text-decoration: none
+}
+.notifications a span {
+	position: absolute;
+	top: -5px;
+	right: 15px;
+	display: inline-block;
+	padding: 0 8px;
+	background: red;
+	border: 1px solid #fff;
+	font: normal 12px/16px 'arial';
+	border-radius: 10px;
+}
+nav {
+	background: #e5e5e5;
+	padding: 8px 0;
+}
+select {
+	border: 1px solid #acacac;
+	background: url(../images/ic_cal.png) no-repeat 170px center #fff;
+	border-radius: 3px;
+	padding: 7px 10px;
+	font: normal 12px 'proxima_nova_rgregular'
+}
+input[type="date"] {
+	border: 1px solid #e8e8e8;
+	width: 180px;
+	background: url(../images/ic_cal.png) no-repeat 170px center #fff;
+	border-radius: 4px;
+	padding: 11px 10px 10px;
+	margin-right: 15px;
+	font: normal 12px 'proxima_nova_rgregular'
+}
+.search-box input[type="text"] {
+	border: 1px solid #acacac;
+	width: 180px;
+	background: url(../images/ic_search_light_grey.png) no-repeat 170px center #fff;
+	border-radius: 4px;
+	padding: 8px 10px 9px;
+	margin-right: 15px;
+	font: normal 12px 'proxima_nova_rgregular'
+}
+.search-box input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #999;
+ font:italic 12px 'proxima_nova_rgregular';
+}
+.search-box input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+ color: #999;
+ font:italic 12px 'proxima_nova_rgregular';
+}
+.search-box input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+ color: #999;
+ font:italic 12px 'proxima_nova_rgregular';
+}
+.search-box input[type="text"]:-moz-placeholder { /* Firefox 18- */
+ color: #999;
+ font:italic 12px 'proxima_nova_rgregular';
+}
+.main-content-wrapper {
+	padding: 20px;
+}
+.content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4 {
+	margin: 15px 0;
+}
+a.clear-filter {
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: -2px 0 0 10px;
+	float: left
+}
+.row {
+	padding: 20px 0
+}
+.row .two-col {
+	width: 470px;
+}
+.screenshot {
+	border-radius: 4px;
+	border: solid 1px #ddd;
+}
+.screenshot.fh{
+	height:355px
+}
+.screenshot .head {
+	line-height: 42px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 20px;
+}
+.screenshot .head .left {
+	font: normal 16px/42px 'proxima_nova_rgbold';
+	text-transform: uppercase;
+	color:#000;
+}
+.screenshot .head .right {
+	font: normal 12px/42px 'proxima_novalight'
+}
+.screenshot .head .right a {
+	color:#d24a43;
+	font: normal 16px/42px 'proxima_nova_rgbold';
+	text-transform: uppercase
+}
+.screenshot .head .right strong {
+	font: bold 12px/42px 'proxima_novalight';
+}
+.edition-item-content {
+	border-top: 1px solid #ddd;
+	padding: 6px 0;
+}
+.edition-item {
+	padding: 0 20px;
+	line-height: 30px;
+}
+.edition-item .count {
+	margin-top:5px;
+	padding:0 10px;
+	background: #000;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	font: normal 14px/19px 'proxima_nova_rgbold';
+}
+.edition-item .edition-name {
+	font: bold 15px/30px 'proxima_novalight';
+	color: #444
+}
+
+.edition-item.sub .edition-name {
+	font: normal 13px/30px 'proxima_novalight';
+	color: #666;
+	margin-left:20px;
+}
+
+.edition-item .time-stamp {
+	display: none;
+	padding-left: 22px;
+	color: #bdc3c7;
+	font: bold 12px/30px 'proxima_novalight';
+	background: url(../images/ic_clock_light_grey_small.png) left center no-repeat;
+}
+.btn-wrapper {
+	padding: 0 20px;
+	font: normal 12px/42px 'proxima_nova_rgregular';
+}
+
+.crop-image-controls ul.options {
+	margin: 0;
+	padding: 0;
+}
+.crop-image-controls ul.options li {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	list-style: none;
+}
+.crop-image-controls ul.options li a {
+	border-radius: 3px;
+	border: 2px solid #666;
+	min-width: 70px;
+	padding: 0 20px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font: normal 14px/34px 'ralewaybold';
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+	color: #666;
+	background: none
+}
+.crop-image-controls ul.options li a:hover, .crop-image-controls ul.options li a.active {
+	background: #666;
+	color: #fff
+}
+.crop-image-controls select {
+	border: 1px solid #e8e8e8;
+	background: #fff;
+	border-radius: 4px;
+	padding: 9px;
+	min-width: 30px;
+	font: normal 14px 'proxima_nova_rgregular'
+}
+.info-bar {
+	padding: 8px 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font: normal 15px/38px 'proxima_novalight';
+	color: #666;
+}
+.info-bar .left {
+	margin-right: 40px
+}
+.info-bar .left .left {
+	margin-right: 10px
+}
+.info-bar .left select {
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 4px;
+	padding: 7px 9px;
+	min-width: 30px;
+	font: normal 14px 'proxima_nova_rgregular';
+	color: #666;
+}
+.info-bar strong {
+	font-weight: bold
+}
+.article-item {
+	padding: 20px 20px 25px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-top: -1px
+}
+.article-item .article-image .completed {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 74px;
+	background: url(../images/ic_completed.png) no-repeat center center;
+}
+.article-item .article-image .zoombtn {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	text-align: right;
+	width: 42px;
+	height: 42px;
+	background: url(../images/ic_zoom_image.png) no-repeat center center;
+}
+.article-item .article-image .zoombtn.closeit {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 92px;
+	height: 42px;
+	background: url(../images/ic_close_zoom_image.png) no-repeat center center;
+}
+.article-item .article-image {
+	width: 460px;
+	height: 150px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	background: #787878;
+	box-shadow: 5px 5px 0 rgba(0,0,0,0.6);
+	position: relative;
+	text-align: center;
+	transition: height 0.3s;
+}
+.article-item .article-image.fullimage {
+	width: 460px;
+	height: auto;
+}
+.article-item .article-image img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+.article-item .article-headline {
+	width: 400px;
+	padding: 30px 0 0px 35px;
+}
+.article-item .article-headline textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 8px;
+	font: normal 20px/30px 'proxima_novasemibold';
+	color: #666;
+	resize: none
+}
+.article-item .article-headline textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #aaa;
+}
+.article-item .article-headline textarea::-moz-placeholder { /* Firefox 19+ */
+ color: #aaa;
+}
+.article-item .article-headline textarea:-ms-input-placeholder { /* IE 10+ */
+ color: #aaa;
+}
+.article-item .article-headline textarea:-moz-placeholder { /* Firefox 18- */
+ color: #aaa;
+}
+.bar {
+	border-bottom: 1px solid #ddd;
+}
+.left-col {
+	float: left;
+	width: 620px;
+}
+.right-col {
+	float: right;
+	width: 300px;
+}
+.right-col .screenshot{
+	margin-bottom: 20px;
+}
+.screenshot .search-bar{margin:0; 
+	padding:8px 15px;
+	background:#ececec;
+	}
+.screenshot .content {
+	padding: 20px;
+}
+.screenshot .content h5 {
+	font: normal 16px 'proxima_nova_rgregular';
+	color: #888;
+	margin-bottom: 20px
+}
+.screenshot .content textarea {
+	margin-bottom: 20px;
+	padding-left: 45px;
+	padding-top: 15px;
+	background: url(../images/Question.png) 10px 12px no-repeat;
+	width: calc(100% - 55px);
+}
+.screenshot .summary-wrapper textarea {
+	margin-bottom: 5px;
+	padding: 15px;
+	background: #fff;
+	width: calc(100% - 32px);
+	height:120px;
+}
+.screenshot .summary-wrapper small {
+	font: italic 13px 'proxima_nova_rgregular';
+	color: #888;
+	margin-bottom: 10px;
+	display:inline-block;
+	}
+.screenshot .content input[type="text"] {
+	margin-bottom: 20px;
+	width: calc(100% - 20px)
+}
+.btn-wrapper {
+	border-top: 1px solid #ddd;
+	padding-top: 20px
+}
+.add-option {
+	padding-left: 20px;
+	background: url(../images/ic_add_question.png) no-repeat left center;
+	text-decoration: underline;
+	display: inline-block;
+	font: normal 13px/16px 'proxima_nova_rgregular';
+	color: #666;
+	margin-bottom: 20px;
+}
+.add-option:hover {
+	color: #27ae60
+}
+.left-col .search-bar {
+	background: #f2f2f2;
+	padding: 10px 20px;
+}
+.left-col .search-bar .search-text {
+	padding-top: 10px;
+}
+.left-col .search-bar .search-box input[type="text"] {
+	width: 120px;
+}
+.left-col .search-bar .search-box .pbtn {
+	padding: 0px
+}
+.article-wrapper{height:600px; overflow:scroll; margin:20px 0;  overflow-x: hidden;}
+.article-wrapper article {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-right:15px;
+}
+.article-wrapper article h4{font: normal 17px/22px 'proxima_nova_rgregular'; color:#222; padding:0; margin:0}
+.article-wrapper article.selected h4{color:#27ae60; font-weight:bold}
+.article-wrapper article.selected{border:1px solid #27ae60}
+.article-wrapper article.selected input[type=checkbox]:not(old) + label{color:#27ae60!important}
+.article-wrapper article.selected .assigned_template, .article-wrapper article.selected .assigned_template:hover{background:#27ae60; color:#fff;}
+
+.article-wrapper article .article {
+	padding: 10px 10px 0 10px
+}
+.article-wrapper article .article input[type=checkbox]:not(old), .article-wrapper article .article input[type=radio ]:not(old) {
+	width : 28px;
+	margin : 0;
+	padding : 0;
+	opacity : 0;
+}
+.article-wrapper article .article input[type=checkbox]:not(old) + label, .article-wrapper article .article input[type=radio ]:not(old) + label {
+	display : inline-block;
+	margin-left : -28px;
+	padding-left : 28px;
+	background : url('../images/checks.png') no-repeat 0 0;
+	font: normal 18px/24px 'proxima_novasemibold';
+	color: #222
+}
+.article-wrapper article .article input[type=checkbox]:not(old):checked + label {
+	background-position : 0 -24px;
+}
+.article-wrapper article .article input[type=radio]:not(old):checked + label {
+	background-position : 0 -48px;
+}
+.article-wrapper article .article .article-snapshot{font-family: 'proxima_nova_rgregular'; color:#999}
+.article-wrapper article .article .article-snapshot p{font-size:13px; line-height:12px }
+.article-wrapper article .assigned_template{background:#e1e1e1; width:170px; padding:5px 10px; cursor:pointer; text-align:center}
+.article-wrapper article .assigned_template:hover{background:#f2f2f2;}
+.article-wrapper article .assigned_template small{display:block; font: normal 12px/14px 'proxima_nova_rgregular';}
+.assigned_template a{width:24px; height:24px; display:inline-block; margin:4px 0 0;}
+.assigned_template a.tmp-emoji{background:url(../images/ic_grey_emoji.png) no-repeat center center;}
+.assigned_template a.tmp-share{background:url(../images/ic_grey_share.png) no-repeat center center;}
+.assigned_template a.tmp-poll{background:url(../images/ic_grey_poll.png) no-repeat center center;}
+.assigned_template a.tmp-summary{background:url(../images/ic_grey_summary.png) no-repeat center center;}
+.assigned_template a.tmp-tweet{background:url(../images/ic_grey_tweet.png) no-repeat center center;}
+.assigned_template a.tmp-video{background:url(../images/ic_grey_video.png) no-repeat center center;}
+
+article.selected .assigned_template a.tmp-emoji{background:url(../images/ic_green_emoji.png) no-repeat center center;}
+article.selected .assigned_template a.tmp-share{background:url(../images/ic_green_share.png) no-repeat center center;}
+article.selected .assigned_template a.tmp-poll{background:url(../images/ic_green_poll.png) no-repeat center center;}
+article.selected .assigned_template a.tmp-summary{background:url(../images/ic_green_summary.png) no-repeat center center;}
+article.selected .assigned_template a.tmp-tweet{background:url(../images/ic_green_tweet.png) no-repeat center center;}
+article.selected .assigned_template a.tmp-video{background:url(../images/ic_green_video.png) no-repeat center center;}
+
+
+.template_selection{border-top:1px solid #ddd; padding:15px 10px; display:none; }
+.template_selection ul{padding:0; margin:0}
+.template_selection ul li{font: bold 14px/24px 'proxima_nova_rgregular'; color:#666; margin-right:15px;}
+.template_selection ul li a{padding-left:28px; font: normal 14px/24px 'proxima_nova_rgregular'; color:#a1a1a1; display:inline-block}
+.template_selection ul li a.poll{background:url(../images/ic_grey_poll.png) no-repeat left center;}
+.template_selection ul li a.summary{background:url(../images/ic_grey_summary.png) no-repeat left center;}
+.template_selection ul li a.tweet{background:url(../images/ic_grey_tweet.png) no-repeat left center;}
+.template_selection ul li a.video{background:url(../images/ic_grey_video.png) no-repeat left center;}
+.template_selection ul li a.poll:hover, 
+.template_selection ul li a.poll.active{color:#ff5700; background:url(../images/ic_poll_active.png) no-repeat left center;}
+.template_selection ul li a.summary:hover, 
+.template_selection ul li a.summary.active{color:#31475f; background:url(../images/ic_summary_active.png) no-repeat left center;}
+.template_selection ul li a.tweet:hover, 
+.template_selection ul li a.tweet.active{color:#44b1ff; background:url(../images/ic_tweet_active.png) no-repeat left center;}
+.template_selection ul li a.video:hover, 
+.template_selection ul li a.video.active{color:#c7241d; background:url(../images/ic_video_active.png) no-repeat left center;}
+
+
+
+.search-tweets .pbtn{padding:0;}
+.tweets-wrapper{height:220px; overflow-y: scroll; overflow-x: hidden; margin-bottom:20px;}
+.available-videos{height:290px; overflow-y: scroll; overflow-x: hidden; margin-bottom:20px;}
+.rcb{padding:10px; border:1px solid #ddd; border-radius:4px; margin-bottom:10px;}
+.rcb.tw{color:#666; display:block; }
+.rcb.tw p{font: normal 14px 'proxima_novalight';}
+.rcb.tw p a{color:#1b95e0}
+
+.screenshot .content .embed-video h5{margin-bottom:5px;}
+.content h5 span{color:#222}
+.embed-video input.video{background:url(../images/ic_input_video.png) no-repeat 8px center}
+.embed-video input.url{background:url(../images/ic_input_url.png) no-repeat 8px center}
+.screenshot .content input[type="text"].video, .screenshot .content input[type="text"].url {
+	padding-left:30px;
+    width: calc(100% - 40px);
+}
+.vid a{font:normal 14px 'proxima_nova_rgbold'; color:#666; margin:3px 0 10px 0; display:block}
+/*#video-editor, #tweet-editor{display:none}*/
+.image-preview{position:relative; padding-bottom:20px;}
+.image-preview .img-zoom{position:absolute; top:5px; right:5px;}
+.image-preview .img-zoom a{border-radius:20px; border:1px solid #b1b1b1; background:#fff; padding:0 10px; font: normal 13px/22px 'proxima_nova_rgregular'; color:#666; display:inline-block}
+.image-preview .img-zoom a:hover{color:#fff; background:#222; border:2px solid #fff;}
+.preview .editions{border-top:1px solid #ddd; }
+.preview .editions h6{font:normal 14px 'proxima_nova_rgbold'; color:#222; margin:0; padding:20px 0 10px;}
+.preview .editions ul{margin:0; padding:0}
+.preview .editions ul li a{text-decoration:none; font: normal 13px/22px 'proxima_nova_rgregular'; color:#666; margin-right:12px;}
+.preview .editions ul li a:hover{color:#222; font-weight:normal}
+.preview .editions a{text-decoration:underline; font: normal 13px/22px 'proxima_nova_rgregular'; color:#222; margin-right:12px;}
+.preview .editions a:hover{text-decoration:none; font: bold 13px/22px 'proxima_nova_rgregular';}
+.actions{margin-top:60px;}
+.actions ul{margin:0; padding:0}
+.actions ul li{margin-left:10px; display:inline-block; float:left}
+.actions ul li a{background:rgba(0,0,0,0.3); border-radius:3px; transition: background-color 0.3s ease; display:inline-block}
+.actions ul li a img{padding:5px; display:inline-block}
+.actions ul li a:hover{background:rgba(0,0,0,1);}
+.actions ul li a.save{padding-left:40px; background:url(../images/ic_save.png) no-repeat 15px center #fdaa29;}
+.actions ul li a.save:hover{padding-left:40px; background:url(../images/ic_save.png) no-repeat 15px center #eb7a00;}
+
+
+
+
+.fullbg {
+    background: rgba(0, 0, 0, 0) url("../images/Full-Page-Image.jpg") repeat scroll center center / cover ;
+}
+.branding{padding:20px 10px; width:800px; margin:0 auto; }
+.login-box .left{width:500px; border-right:1px solid #ddd; }
+.login-box .right{width:180px;}
+.login-form{margin-top:20px; width:350px}
+.login-form label{font:normal 13px/40px 'proxima_novalight'; display:block}
+.login-box small{font:normal 11px 'arial';}
+.login-box small a{color:#ce3235}
+.login-box .help-block{margin-bottom:20px}
+.login-box .help-block h6{font:normal 15px 'proxima_novalight'; display:block; color:#666; margin:0; padding:0}
+.login-box .help-block a{font:normal 13px 'proxima_novalight'; display:block; color:#ce3235}
+.login-box{width:700px; margin:0 auto 0; background:#fff; box-shadow:0 0 3px rgba(0,0,0,0.5); padding:35px 60px; margin-bottom:40px;}
+.login-box h1{color:#444; font:bold 24px 'proxima_novalight'; background:none; padding:0; margin:0; }
+.login-box p{color:#666; font:normal 15px 'proxima_novalight';}
+input[type="text"], input[type="password"], input[type="button"]{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px; -khtml-border-radius: 5px;}
+.login-box input[type="text"], .login-box input[type="password"]{border:1px solid #ddd;width:85%; padding:10px 0 10px 10%; box-shadow:0 1px 0 rgba(255,255,255,0.5); color:#444; background:#fff}
+.login-box input[type="text"]::-webkit-input-placeholder, .login-box input[type="password"]::-webkit-input-placeholder,
+.login-box input[type="text"]:-moz-placeholder, .login-box input[type="password"]:-moz-placeholder,
+.login-box input[type="text"]::-moz-placeholder, .login-box input[type="password"]::-moz-placeholder,
+.login-box input[type="text"]:-ms-input-placeholder, .login-box input[type="password"]:-ms-input-placeholder {color:#666;}
+/*input[type=text], input[type=password]{-webkit-transition: all 0.30s ease-in-out; -moz-transition: all 0.30s ease-in-out; -ms-transition: all 0.30s ease-in-out; -o-transition: all 0.30s ease-in-out; outline: none;}*/
+ input[type=text]:focus, input[type=password]:focus {box-shadow: 0 0 5px rgba(200, 200, 200, 1); border: 1px solid rgba(150, 150, 150, 1);}
+ .login-box input[type="text"]{background: url(../images/ic-user.png) 10px center no-repeat rgba(0,0,0,0.05);}
+ .login-box input[type="password"]{background: url(../images/ic-password.png) 10px center no-repeat rgba(0,0,0,0.05);}
+ .login-box p{color:#222; margin-bottom:15px;}
+.login-box p a{color:#222;}
+.login-box p a:hover{text-decoration:underline;}
+.login-box p input[type="checkbox"]{margin:0px 10px 0 0;}
+.serch-notification{padding:15px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+
+
+
+.site-footer {
+	color: #fff;
+	font: normal 15px/40px 'proxima_nova_rgregular';
+}
